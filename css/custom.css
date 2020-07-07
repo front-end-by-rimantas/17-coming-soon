@@ -55,17 +55,28 @@
         color: #555;
     }
 
-#footer {
-    padding-top: 20px;
+.footer-container {
+    padding-top: 0;
     text-align: center;
     color: #fff;
 }
     .icons-list {
         display: inline-block;
         margin-bottom: 40px;
+        padding: 20px 0;
         width: 100%;
         border-bottom: 2px solid #fff;
     }
+        .icons-list > .fa {
+            width: 50px;
+            font-size: 24px;
+            line-height: 50px;
+        }
+            .icons-list > .fa:hover {
+                background-color: #fff;
+                color: #03A9F3;
+                border-radius: 50%;
+            }
     .footer-bottom {
         display: inline-block;
         width: 600px;
@@ -106,7 +117,7 @@
             line-height: 28px;
             color: #fffb;
         }
-    #footer a {
+    .footer-container a {
         color: #fff;
         text-decoration: none;
     }
