@@ -39,6 +39,22 @@
             margin-bottom: 20px;
         }
 
+#main_content {
+
+}
+    h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    #main_content p {
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #555;
+    }
+
 #footer {
     padding-top: 20px;
 }
