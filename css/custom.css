@@ -58,6 +58,9 @@ html {
         line-height: 22px;
         color: #555;
     }
+    #main_content .form > .btn {
+        float: right;
+    }
 
 .footer-container {
     padding-top: 0;
