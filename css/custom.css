@@ -8,7 +8,7 @@ html {
 
 #hero {
     padding-bottom: 20px;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../img/background.png);
     background-size: cover;
     background-position: center bottom;
@@ -34,10 +34,10 @@ html {
             color: #555;
         }
         .hero-content > .clock {
-            margin-bottom: 60px;
+            margin-bottom: 45px;
         }
         .hero-content > .clock {
-            margin-bottom: 60px;
+            margin-bottom: 45px;
         }
         .hero-content > .form {
             width: 90%;
@@ -178,4 +178,10 @@ html {
                 .footer-bottom > .credentials > p:nth-child(2)::after {
                     display: none;
                 }
+}
+
+@media (max-width: 500px) {
+    .clock > .time {
+        width: 50%;
+    }
 }
