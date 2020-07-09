@@ -40,8 +40,18 @@ html {
             margin-bottom: 60px;
         }
         .hero-content > .form {
-            margin-bottom: 20px;
+            width: 90%;
+            margin: 0 0 20px;
         }
+            .hero-content > .form > input {
+                background-color: transparent;
+                color: #fff;
+                border-color: #fff;
+                outline: none;
+            }
+                .hero-content > .form > input::placeholder {
+                    color: #fff;
+                }
 
 #main_content {
 
@@ -142,6 +152,16 @@ html {
             color: #fff;
             border-radius: 50%;
         }
+
+@media (min-width: 1100px) {
+    #main_content .form > input {
+        width: 48%;
+        float: left;
+    }
+        #main_content .form > input:first-child {
+            margin-right: 4%;
+        }
+}
 
 @media (max-width: 700px) {
     .footer-bottom {
