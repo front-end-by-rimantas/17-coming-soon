@@ -1,3 +1,28 @@
 .mouse {
-    
+    display: inline-block;
+    width: 26px;
+    height: 40px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    border-radius: 13px;
+}
+    .mouse > .wheel {
+        display: inline-block;
+        width: 3px;
+        height: 5px;
+        margin-top: 6px;
+        background-color: #fff;
+        border-radius: 2px;
+        animation: scroll 1500ms infinite;
+    }
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(16px);
+        opacity: 0;
+    }
 }
