@@ -32,5 +32,21 @@
             width: 90%;
             height: 100%;
             float: left;
-            background-color: #03A9F3;
+            background-color: transparent;
         }
+            .progress-bar > .bar > .fill > .loading {
+                display: inline-block;
+                height: 100%;
+                float: left;
+                background-color: #03A9F3;
+                animation: loading 2s forwards;
+            }
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}

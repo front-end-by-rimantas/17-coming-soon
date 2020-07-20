@@ -42,7 +42,9 @@ function renderProgressBars( config ) {
                         <div class="value">${progressBar.value}%</div>
                     </div>
                     <div class="bar">
-                        <div class="fill" style="width: ${progressBar.value}%;"></div>
+                        <div class="fill" style="width: ${progressBar.value}%;">
+                            <div class="loading"></div>
+                        </div>
                     </div>
                 </div>`;
     }
